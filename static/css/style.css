@@ -1,0 +1,84 @@
+@CHARSET "UTF-8";
+body{
+
+}
+table{
+
+}
+td{
+	border: 3px solid white;
+	height: 40px;
+	width: 40px;
+	text-align: left;
+	vertical-align:top;
+	border-radius:5px;
+	background: #ECECEA;
+	margin:2px;
+	font-size:10px;
+	color:#646464;
+}
+
+td:empty{
+	background: #C1CBD7;
+	border: 3px solid white;
+	border-radius:5px;
+}
+
+
+#title {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li {
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.title {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li:hover {
+	background-color: #111;
+}
+
+#right{
+	float:right;
+	font-size:20px;
+	width:17%;
+	padding:15px;
+}
+
+#left{
+	float: left;
+	font-size:20px;
+	width:17%;
+	padding:15px;
+}
+
+#temptable{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#anstable{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.row{
+	padding:15px;
+}
